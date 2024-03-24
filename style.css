@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: sans-serif;
+}
+body{
+    background-image: linear-gradient(to right , rgba(8, 8, 8, 0.897),rgba(4, 4, 68, 0.877));
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-image: linear-gradient(to right , rgba(14, 13, 13, 0.336),rgba(53, 28, 121, 0.562)) , url(DesktopBackground\(1\).jpg);
+    background-position: right;
+    width: 90%;
+    height: 640px;
+}
+.container:hover{
+    background-image: linear-gradient(to right , rgba(14, 13, 13, 0.336) 30%,transparent ) , url(DesktopBackground\(1\).jpg);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+    font-size: 30px;
+}
+a{
+    text-decoration: none;
+
+}
+ul{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+ul a{
+    border-bottom: 2px solid transparent;
+}
+ul a:hover{
+    border-bottom: 2px solid white;
+}
+.content{
+    width: 50%;
+    margin-top: 50px;
+    padding: 30px;
+}
+.content h2{font-size: 100px;}
+.content p{
+    letter-spacing: 2px;
+    width: 400px;
+    padding: 20px 0;
+}
+.content button{
+    color: black;
+    font-size: 30px;
+    padding: 6px 2px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    transition: 0.5s;
+}
+.content button:hover{
+    color: white;
+    border-color: white;
+    background-color: transparent;
+
+}
